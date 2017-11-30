@@ -23,11 +23,17 @@ git branch
 
 > คำสั่งสร้าง branch ชื่อว่า "hotfixes" และเปลี่ยนไปยัง branch ที่สร้างทันที
 ```
-git checkout -b hotfixes
+git checkout -b <new branch>
 ```
 ![git-new-branch](asset/git-new-branch.png)
-
+หลังจากนั้นให้ลองไปแก้ไข code ต่าง
+หลังจากนั้น ก็ให้ commit และ push ขึ้นไป
+```
+git push origin <branch>
+```
 > ถ้าหากต้องการออกจาก branch แล้วกลับมายัง master branch
 ```
 git checkout master
 ```
+ถ้าหาก เราลอง switch ไปมา ระหว่าง branch จะเห็นว่ามี code ที่เปลี่ยนแปลงตามการแก้ไขในแต่ละ branch
+
