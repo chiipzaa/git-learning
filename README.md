@@ -37,3 +37,7 @@ git checkout master
 ```
 ถ้าหาก เราลอง switch ไปมา ระหว่าง branch จะเห็นว่ามี code ที่เปลี่ยนแปลงตามการแก้ไขในแต่ละ branch
 
+> ถ้าต้องการ merge การเปลี่ยนแปลงจาก branch อื่น มายัง branch ปัจจุบัน (เช่น master) ด้วยคำสั่ง
+```
+git merge <branch>
+```
