@@ -31,6 +31,13 @@ git checkout -b <new branch>
 ```
 git push origin <branch>
 ```
+![git-new-branch](asset/git-new-branch.png)
+> อัฟโหลด to branch
+```
+git push origin hotfixes
+```
+จะเห็นว่า เรามีการแก้ไข เพิ่ม code ใหม่แล้วใน branch hotfixes แต่ใน branch master เราจะเห็น code เท่าเดิมตลอด
+
 > ถ้าหากต้องการออกจาก branch แล้วกลับมายัง master branch
 ```
 git checkout master
