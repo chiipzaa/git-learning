@@ -25,6 +25,8 @@ git branch
 ```
 git checkout -b hotfixes
 ```
+![git-new-branch](asset/git-new-branch.png)
+
 > ถ้าหากต้องการออกจาก branch แล้วกลับมายัง master branch
 ```
 git checkout master
